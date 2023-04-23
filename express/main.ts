@@ -3,7 +3,7 @@ import express from 'express';
 import cors from 'cors';
 import { getProjects, getProjectDetails } from './projectsRepo';
 
-const PORT = 7000;
+const PORT = 3001;
 const app = express();
 
 app.set('port', PORT);
